@@ -182,7 +182,9 @@ async function processEventStream(
 }
 
 /**
- * Check if the model is using the Responses API which is not compatible with this version
+ * Check if the model is using the Responses API which is not compatible with this version.
+ * This check is OpenAI-specific; other model providers (e.g., Gemini, Anthropic) are not
+ * instances of ChatOpenAI and will safely return false, passing through without restriction.
  */
 function checkIsResponsesApi(model: BaseChatModel | null | undefined): boolean {
     try {
