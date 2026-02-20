@@ -136,6 +136,7 @@ Here’s how a single request looks inside Langfuse:
 - Requires n8n version 1.0.0 or later
 - Compatible with:
   - OpenAI official API (https://api.openai.com)
+  - Google Gemini (via @langchain/google-genai)
   - Any OpenAI-compatible LLM (e.g. via LiteLLM, LocalAI, Azure OpenAI)
   - Langfuse Cloud and self-hosted instances
 

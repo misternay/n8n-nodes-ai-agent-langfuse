@@ -6,7 +6,9 @@
     "n8n-community-node-package",
     "langfuse",
     "langchain",
-    "openai"
+    "openai",
+    "gemini",
+    "google"
   ],
   "license": "MIT",
   "homepage": "",
@@ -45,6 +47,7 @@
   "dependencies": {
     "@langchain/classic": "^1.0.5",
     "@langchain/core": "^1.0.0",
+    "@langchain/google-genai": "^1.0.0",
     "@langchain/openai": "^1.0.0",
     "langchain": "^1.1.1",
     "langfuse-langchain": "^3.0.0",
